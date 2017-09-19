@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="phase-banner">
+    <p>
+    <strong class="phase-tag">BETA</strong>
+    <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+    </p>
+  </div>
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="http://www.openregister.org/">GOV.UK Registers</a></li>
+      <li><a href="/index.html">Browse Registers</a></li>
+            <li>Local authorities</li>
+    </ol>
+  </div>
+  <div class="grid-row">
+        <div class="column-two-thirds">
+          <h1 class="heading-xlarge title">Register updates</h1>
+          <p>This is a collection of updates made to each of the <a href="">Registers</a> that have been used to produce the Local authorities register.</p>
+          <div class="form-group">
+            <label><h2 class="heading-small">Search for a record</h2></label>
+            <input class="form-control" id="search" name="search">
+          </div>
+          <div class="timeline">
+            <div class="update-container">
+              <div class="update">
+                <div class="pointer"></div>
+                <span class="date">15 August 2017 <span class="divider">|</span> <a href="">Local authority sct</a></span>
+                <h2 class="heading-medium">West Dunbartonshire</h2>
+                <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <th>Field</th>
+                    <th>Old value</th>
+                    <th>New value</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Westt Dunbartonshire</td>
+                      <td>West Dunbartonshire</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+              <div class="update">
+                <div class="pointer"></div>
+                <span class="date">21 July 2017 <span class="divider">|</span> <a href="">Local authority eng</a></span>
+                <h2 class="heading-medium">Greater London</h2>
+                <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <th>Field</th>
+                    <th>Old value</th>
+                    <th>New value</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Official name</td>
+                      <td>The Greater London Authority</td>
+                      <td>Greater London Authority</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+              <div class="update">
+                <div class="pointer"></div>
+                <span class="date">18 June 2017 <span class="divider">|</span> <a href="">Principal local authority</a></span>
+                <h2 class="heading-medium">Torfaen</h2>
+                <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <th>Field</th>
+                    <th>Old value</th>
+                    <th>New value</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Tor-faen</td>
+                      <td>Torfaen</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+              <div class="update">
+                <div class="pointer"></div>
+                <span class="date">07 March 2017 <span class="divider">|</span> <a href="">Local authority nir</a></span>
+                <h2 class="heading-medium">Derry</h2>
+                <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <th>Field</th>
+                    <th>Old value</th>
+                    <th>New value</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>End date</td>
+                      <td class="not-found">No previous value</td>
+                      <td>2015-03-31</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
