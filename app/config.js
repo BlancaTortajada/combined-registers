@@ -10,7 +10,7 @@ module.exports = {
   port: '3000',
 
   // Enable or disable password protection on production
-  useAuth: 'true',
+  useAuth: 'false',
 
   // Automatically stores form data, and send to all views
   useAutoStoreData: 'true',
@@ -19,7 +19,7 @@ module.exports = {
   useDocumentation: 'true',
 
   // Force HTTP to redirect to HTTPs on production
-  useHttps: 'false',
+  useHttps: 'true',
 
   // Cookie warning - update link to service's cookie page.
   cookieText: 'GOV.UK uses cookies to make the site simpler. <a href="#">Find out more about cookies</a>',
