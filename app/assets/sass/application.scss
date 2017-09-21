@@ -109,24 +109,25 @@ a:visited {
 
 table {
   margin-bottom: 40px;
-  th {
-    color: $govuk-blue;
-    text-decoration: underline;
-  }
 
   th, td {
     min-width: 100px;
+    padding: 15px 40px 15px 0;
+    vertical-align: top;
   }
+
   th {
+    color: $govuk-blue;
+    text-decoration: underline;
     font-size: 16px;
     font-weight: normal;
-    padding: 15px 40px 15px 0;
+    &.key {
+      width: 20px;
+    }
   }
 
   td {
     font-size: 16px;
-    padding: 15px 40px 15px 0;
-    vertical-align: top;
 
     .unknown {
       color: $grey-1;

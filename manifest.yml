@@ -1,0 +1,5 @@
+---
+applications:
+- name: combined-registers
+  memory: 256M
+  buildpack: nodejs_buildpack
