@@ -1,0 +1,180 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="https://www.gov.uk/service-toolkit#components">Components</a></li>
+        <li><a href="index.html">GOV.UK Registers</a></li>
+        <li><a href="/registers.html">Registers collection</a></li>
+        <li>Local Authority Type</li>
+      </ol>
+    </div>
+    <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge title">
+        Local Authority Type
+      </h1>
+      <dl class="metadata">
+        <dt>Updated:</dt>
+        <dd>01/11/2016</dd>
+        <dt>Managed by:</dt>
+        <dd><a href="https://www.gov.uk/government/organisations/department-for-communities-and-local-government">Department For Communities And Local Government</a></dd>
+      </dl>
+      <p>Types of local government organisations in the UK.</p>
+      <details>
+        <summary><span class="summary">What are Registers?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>Registers are reliable lists of information managed by one custodian from the government organisation responsible for maintaining the Register’s data.</p>
+          <p>You can easily combine data from some Registers with data from another Register to build your service. For example, this Register can be combined with other registers to create the <a href="local-autorities-uk.html">Local authorities in the UK</a> register.</p>
+          <p>
+          <a href="https://registers.cloudapps.digital/using-registers">Using Registers</a>
+          <br>
+          <a href="https://registers.cloudapps.digital/registers">Registers collection</a>
+          </p>
+        </div>
+      </details>
+      <details>
+        <summary><span class="summary">How do I use this Register in my service?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>There are 2 ways to use Registers. You can either:</p>
+          <ul class="list-bullet">
+          <li>use an <a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">application programming interface</a> (API) to automatically pull data from a register into your service</li>
+          <li>download the data for this Register and keep your own copy up-to-date</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+    <div class="column-one-third">
+      <h2 class="heading-small">Find out more</h2>
+      <ul>
+        <li><a href="#">Register updates</a></li>
+        <li><a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">API documentation</a></li>
+        <li><a href="https://www.gov.uk/guidance/creating-a-register">Create a register</a></li>
+        <li><a href="https://registers.cloudapps.digital/support">Contact the team</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="search-wrapper">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="form-group">
+          <label class="form-label" for="select-box">Filter by</label>
+          <select class="form-control" id="select-box" name="select-box">
+            <option>Existing records</option>
+            <option>Closed records</option>
+            <option>Existing and closed records</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <label>Search for a record</label>
+          <input class="form-control" id="search" name="search">
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="column-full">
+        <h2 class="heading-large">9 records</h2>
+        <details>
+          <summary><span class="summary">Get a copy of this data</span></summary>
+          <div class="panel panel-border-narrow">
+            <div class="download-options">
+              <p>Download this data as: <a href="#">TSV</a>, <a href="#">CSV</a> or as a <a href="#">Spreadsheet</a>.</p>
+              <p>Preview a sample as <a href="#">JSON</a>, <a href="#">YAML</a> or <a href="#">TTL</a>.</p>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary><span class="summary">What are the column headings?</span></summary>
+          <div class="panel panel-border-narrow">
+            <dl>                  
+              <dt>Local-authority-type:</dt>
+              <dd>The type of local government organisation.</dd>
+              <dt>Name:</dt>
+              <dd>The commonly-used name of a record.</dd>
+              <dt>Start-date:</dt>
+              <dd>The date a record first became relevant to a register.</dd>
+              <dt>End-date:</dt>
+              <dd>The date a record stopped being applicable.</dd>
+            </dl>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row table-view">
+    <div class="column-full" id="table-column">
+      <div class="table-wrapper scroll">
+        <table>
+          <thead><tr><th title="Field #1">local-authority-type</th>
+          <th title="Field #2">name</th>
+          <th title="Field #3">start-date</th>
+          <th title="Field #4">end-date</th>
+          </tr></thead>
+          <tbody><tr>
+          <td>SRA</td>
+          <td>Strategic Regional Authority</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CC</td>
+          <td>City corporation</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>UA</td>
+          <td>Unitary authority</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MD</td>
+          <td>Metropolitan district</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NMD</td>
+          <td>Non-metropolitan district</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LBO</td>
+          <td>London borough</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DIS</td>
+          <td>District</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CTY</td>
+          <td>County</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CA</td>
+          <td>Council area</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

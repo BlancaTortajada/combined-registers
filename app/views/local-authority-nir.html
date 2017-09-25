@@ -1,0 +1,459 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="https://www.gov.uk/service-toolkit#components">Components</a></li>
+        <li><a href="index.html">GOV.UK Registers</a></li>
+        <li><a href="/registers.html">Registers collection</a></li>
+        <li>Local authority nir</li>
+      </ol>
+    </div>
+    <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge title">
+        Local authority nir
+      </h1>
+      <dl class="metadata">
+        <dt>Updated:</dt>
+        <dd>24/02/2017</dd>
+        <dt>Managed by:</dt>
+        <dd><a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a></dd>
+      </dl>
+      <p>List of all local authorities in Northern Ireland.</p>
+      <details>
+        <summary><span class="summary">What are Registers?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>Registers are reliable lists of information managed by one custodian from the government organisation responsible for maintaining the Register’s data.</p>
+          <p>You can easily combine data from some Registers with data from another Register to build your service. For example, this Register can be combined with other registers to create the <a href="local-autorities-uk.html">Local authorities in the UK</a> register.</p>
+          <p>
+          <a href="https://registers.cloudapps.digital/using-registers">Using Registers</a>
+          <br>
+          <a href="https://registers.cloudapps.digital/registers">Registers collection</a>
+          </p>
+        </div>
+      </details>
+      <details>
+        <summary><span class="summary">How do I use this Register in my service?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>There are 2 ways to use Registers. You can either:</p>
+          <ul class="list-bullet">
+          <li>use an <a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">application programming interface</a> (API) to automatically pull data from a register into your service</li>
+          <li>download the data for this Register and keep your own copy up-to-date</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+    <div class="column-one-third">
+      <h2 class="heading-small">Find out more</h2>
+      <ul>
+        <li><a href="#">Register updates</a></li>
+        <li><a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">API documentation</a></li>
+        <li><a href="https://www.gov.uk/guidance/creating-a-register">Create a register</a></li>
+        <li><a href="https://registers.cloudapps.digital/support">Contact the team</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="search-wrapper">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="form-group">
+          <label class="form-label" for="select-box">Filter by</label>
+          <select class="form-control" id="select-box" name="select-box">
+            <option>Existing records</option>
+            <option>Closed records</option>
+            <option>Existing and closed records</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <label>Search for a record</label>
+          <input class="form-control" id="search" name="search">
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="column-full">
+        <h2 class="heading-large">36 records</h2>
+        <details>
+          <summary><span class="summary">Get a copy of this data</span></summary>
+          <div class="panel panel-border-narrow">
+            <div class="download-options">
+              <p>Download this data as: <a href="#">TSV</a>, <a href="#">CSV</a> or as a <a href="#">Spreadsheet</a>.</p>
+              <p>Preview a sample as <a href="#">JSON</a>, <a href="#">YAML</a> or <a href="#">TTL</a>.</p>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary><span class="summary">What are the column headings?</span></summary>
+          <div class="panel panel-border-narrow">
+            <dl>
+              <dt>Local-authority-nir:</dt>
+              <dd>A local authority in Northern Ireland.</dd>
+              <dt>Local-authority-type:</dt>
+              <dd>The type of a local government organisation in the United Kingdom.</dd>
+              <dt>Name:</dt>
+              <dd>The commonly-used name of a record.</dd>
+              <dt>Official-name:</dt>
+              <dd>The official or technical name of a record.</dd>
+              <dt>Website:</dt>
+              <dd>Website for register entry.</dd>
+              <dt>Start-date:</dt>
+              <dd>The date a record first became relevant to a register.</dd>
+              <dt>End-date:</dt>
+              <dd>The date a record stopped being applicable.</dd>
+            </dl>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row table-view">
+    <div class="column-full" id="table-column">
+      <div class="table-wrapper scroll">
+        <table>
+          <thead><tr><th title="Field #1">local-authority-nir</th>
+          <th title="Field #2">local-authority-type</th>
+          <th title="Field #3">name</th>
+          <th title="Field #4">official-name</th>
+          <th title="Field #5">website</th>
+          <th title="Field #6">start-date</th>
+          <th title="Field #7">end-date</th>
+          </tr></thead>
+          <tbody><tr>
+          <td>NIR-Y</td>
+          <td class="not-found">No data found</td>
+          <td>Castlereagh</td>
+          <td>Castlereagh Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-X</td>
+          <td class="not-found">No data found</td>
+          <td>Ards</td>
+          <td>Ards Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-W</td>
+          <td class="not-found">No data found</td>
+          <td>North Down</td>
+          <td>North Down Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-V</td>
+          <td class="not-found">No data found</td>
+          <td>Carrickfergus</td>
+          <td>Carrickfergus Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-U</td>
+          <td class="not-found">No data found</td>
+          <td>Newtownabbey</td>
+          <td>Newtownabbey Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-T</td>
+          <td class="not-found">No data found</td>
+          <td>Antrim</td>
+          <td>Antrim Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-S</td>
+          <td class="not-found">No data found</td>
+          <td>Lisburn</td>
+          <td>Lisburn City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-R</td>
+          <td class="not-found">No data found</td>
+          <td>Down</td>
+          <td>Down District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-Q</td>
+          <td class="not-found">No data found</td>
+          <td>Banbridge</td>
+          <td>Banbridge District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-P</td>
+          <td class="not-found">No data found</td>
+          <td>Newry and Mourne</td>
+          <td>Newry and Mourne District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-O</td>
+          <td class="not-found">No data found</td>
+          <td>Armagh City</td>
+          <td>Armagh City and District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-N</td>
+          <td class="not-found">No data found</td>
+          <td>Craigavon</td>
+          <td>Craigavon Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-M</td>
+          <td class="not-found">No data found</td>
+          <td>Dungannon and South Tyrone</td>
+          <td>Dungannon and South Tyrone Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-L</td>
+          <td class="not-found">No data found</td>
+          <td>Fermanagh</td>
+          <td>Fermanagh District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-K</td>
+          <td class="not-found">No data found</td>
+          <td>Omagh</td>
+          <td>Omagh District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-J</td>
+          <td class="not-found">No data found</td>
+          <td>Strabane</td>
+          <td>Strabane District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-I</td>
+          <td class="not-found">No data found</td>
+          <td>Cookstown</td>
+          <td>Cookstown District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-H</td>
+          <td class="not-found">No data found</td>
+          <td>Magherafelt</td>
+          <td>Magherafelt District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-G</td>
+          <td class="not-found">No data found</td>
+          <td>Ballymena</td>
+          <td>Ballymena Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-F</td>
+          <td class="not-found">No data found</td>
+          <td>Larne</td>
+          <td>Larne Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-E</td>
+          <td class="not-found">No data found</td>
+          <td>Moyle</td>
+          <td>Moyle District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-D</td>
+          <td class="not-found">No data found</td>
+          <td>Ballymoney</td>
+          <td>Ballymoney Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-C</td>
+          <td class="not-found">No data found</td>
+          <td>Coleraine</td>
+          <td>Coleraine Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-B</td>
+          <td class="not-found">No data found</td>
+          <td>Limavady</td>
+          <td>Limavady Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NIR-A</td>
+          <td class="not-found">No data found</td>
+          <td>Derry</td>
+          <td>Derry City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          <td>2015-03-31</td>
+          </tr>
+          <tr>
+          <td>NMD</td>
+          <td class="not-found">No data found</td>
+          <td>Newry, Mourne and Down </td>
+          <td>Newry, Mourne and Down District Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MUL</td>
+          <td class="not-found">No data found</td>
+          <td>Mid Ulster</td>
+          <td>Mid Ulster District Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MEA</td>
+          <td class="not-found">No data found</td>
+          <td>Mid and East Antrim</td>
+          <td>Mid and East Antrim Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LBC</td>
+          <td class="not-found">No data found</td>
+          <td>Lisburn and Castlereagh</td>
+          <td>Lisburn and Castlereagh City Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FMO</td>
+          <td class="not-found">No data found</td>
+          <td>Fermanagh and Omagh</td>
+          <td>Fermanagh and Omagh District Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DRS</td>
+          <td class="not-found">No data found</td>
+          <td>Derry City and Strabane</td>
+          <td>Derry City and Strabane District Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CCG</td>
+          <td class="not-found">No data found</td>
+          <td>Causeway Coast and Glens</td>
+          <td>Causeway Coast and Glens Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BFS</td>
+          <td class="not-found">No data found</td>
+          <td>Belfast</td>
+          <td>Belfast City Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ANN</td>
+          <td class="not-found">No data found</td>
+          <td>Antrim and Newtownabbey</td>
+          <td>Antrim and Newtownabbey Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>AND</td>
+          <td class="not-found">No data found</td>
+          <td>Ards and North Down</td>
+          <td>Ards and North Down Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ABC</td>
+          <td class="not-found">No data found</td>
+          <td>Armagh City, Banbridge and Craigavon</td>
+          <td>Armagh City, Banbridge and Craigavon Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td>2015-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

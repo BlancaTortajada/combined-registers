@@ -1,0 +1,391 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="https://www.gov.uk/service-toolkit#components">Components</a></li>
+        <li><a href="index.html">GOV.UK Registers</a></li>
+        <li><a href="/registers.html">Registers collection</a></li>
+        <li>Local authorities in Scotland/li>
+      </ol>
+    </div>
+    <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge title">
+        Local authorities in Scotland
+      </h1>
+      <dl class="metadata">
+        <dt>Updated:</dt>
+        <dd>14/02/17</dd>
+        <dt>Managed by:</dt>
+        <dd><a href="https://www.gov.uk/government/organisations/department-for-communities-and-local-government">Department For Communities And Local Government</a>, <a href="https://www.gov.uk/government/organisations/the-scottish-government">The Scottish Government</a></dd>
+      </dl>
+      <p>List of all local authorities in Scotland.</p>
+      <details>
+        <summary><span class="summary">What are Registers?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>Registers are reliable lists of information managed by one custodian from the government organisation responsible for maintaining the Register’s data.</p>
+          <p>
+            <a href="https://registers.cloudapps.digital/using-registers">Using registers</a>
+            <br><a href="/index.html">Registers collection</a>
+          </p>
+        </div>
+      </details>
+      <details>
+        <summary><span class="summary">How do I use this Register in my service?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>The data for this register has been created by joining these registers:</p>
+          <ul>
+            <li><a href="/local-authority-sct">Local authority sct</a></li>
+            <li><a href="/local-authority-type">Local authority type</a></li>
+          </ul>
+          <p>There are 2 ways to use this Register. You can either:</p>
+          <ul class="bullet-list">
+            <li>combine the Registers above using <a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers"> the client library</a> included in our API documentation to automatically pull data into your service</li>
+            <li>download the data for this Register and keep your own copy up-to-date</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+    <div class="column-one-third">
+      <h2 class="heading-small">Find out more</h2>
+      <ul>
+        <li><a href="/entries">Register updates</a></li>
+        <li><a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">API documentation</a></li>
+        <li><a href="https://www.gov.uk/guidance/creating-a-register">Create a register</a></li>
+        <li><a href="https://registers.cloudapps.digital/support">Contact the team</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="search-wrapper">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="form-group">
+          <label class="form-label" for="select-box">Filter by</label>
+          <select class="form-control" id="select-box" name="select-box">
+            <option>Existing records</option>
+            <option>Closed records</option>
+            <option>Existing and closed records</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <label>Search for a record</label>
+          <input class="form-control" id="search" name="search">
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="column-full">
+        <h2 class="heading-large">33 records</h2>
+        <details>
+          <summary><span class="summary">Get a copy of this data</span></summary>
+          <div class="panel panel-border-narrow">
+            <div class="download-options">
+              <p>You can download this data as: <a href="#">TSV</a>, <a href="#">CSV</a> or as a <a href="#">Spreadsheet</a>.</p>
+              <p>To view this data as JSON, TTL or YAML, go to our <a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">client library</a>.</p>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary><span class="summary">What are the column headings?</span></summary>
+          <div class="panel panel-border-narrow">
+            <dl>
+              <dt>Local-authority</dt>
+              <dd>A local authority in the UK</dd>
+              <dt>local-authority-type</dt>
+              <dd>The type of local government organisation.</dd>
+              <dt>name</dt>
+              <dd>The commonly-used name of a record.</dd>
+              <dt>official-name</dt>
+              <dd>The official or technical name of a record.</dd>
+              <dt>start-date</dt>
+              <dd>The date a record first became relevant to a register.</dd>
+              <dt>end-date</dt>
+              <dd>The date a record stopped being applicable.</dd>
+            </dl>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row table-view">
+    <div class="column-full" id="table-column">
+      <div class="table-wrapper scroll">
+        <table>
+          <thead><tr><th title="Field #1">local-authority</th>
+          <th title="Field #2">local-authority-type</th>
+          <th title="Field #3">name</th>
+          <th title="Field #4">official-name</th>
+          <th title="Field #5">start-date</th>
+          <th title="Field #6">end-date</th>
+          </tr></thead>
+          <tbody><tr>
+          <td>ZET</td>
+          <td>Council area</td>
+          <td>Shetland Islands</td>
+          <td>Shetland Islands Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WLN</td>
+          <td>Council area</td>
+          <td>West Lothian</td>
+          <td>The West Lothian Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WDU</td>
+          <td>Council area</td>
+          <td>West Dunbartonshire</td>
+          <td>The West Dunbartonshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STG</td>
+          <td>Council area</td>
+          <td>Stirling</td>
+          <td>The Stirling Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SLK</td>
+          <td>Council area</td>
+          <td>South Lanarkshire</td>
+          <td>The South Lanarkshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SCB</td>
+          <td>Council area</td>
+          <td>Scottish Borders</td>
+          <td>The Scottish Borders Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SAY</td>
+          <td>Council area</td>
+          <td>South Ayrshire</td>
+          <td>The South Ayrshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RFW</td>
+          <td>Council area</td>
+          <td>Renfrewshire</td>
+          <td>The Renfrewshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PKN</td>
+          <td>Council area</td>
+          <td>Perth and Kinross</td>
+          <td>The Perth and Kinross Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ORK</td>
+          <td>Council area</td>
+          <td>Orkney Islands</td>
+          <td>Orkney Islands Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NLK</td>
+          <td>Council area</td>
+          <td>North Lanarkshire</td>
+          <td>The North Lanarkshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NAY</td>
+          <td>Council area</td>
+          <td>North Ayrshire</td>
+          <td>The North Ayrshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MRY</td>
+          <td>Council area</td>
+          <td>Moray</td>
+          <td>The Moray Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MLN</td>
+          <td>Council area</td>
+          <td>Midlothian</td>
+          <td>The Midlothian Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>IVC</td>
+          <td>Council area</td>
+          <td>Inverclyde</td>
+          <td>The Inverclyde Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HLD</td>
+          <td>Council area</td>
+          <td>Highland</td>
+          <td>The Highland Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GLG</td>
+          <td>Council area</td>
+          <td>Glasgow City</td>
+          <td>The Glasgow City Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FIF</td>
+          <td>Council area</td>
+          <td>Fife</td>
+          <td>The Fife Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FAL</td>
+          <td>Council area</td>
+          <td>Falkirk</td>
+          <td>The Falkirk Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ERW</td>
+          <td>Council area</td>
+          <td>East Renfrewshire</td>
+          <td>The East Renfrewshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ELS</td>
+          <td>Council area</td>
+          <td>Comhairle nan Eilean Siar</td>
+          <td>Comhairle nan Eilean Siar</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ELN</td>
+          <td>Council area</td>
+          <td>East Lothian</td>
+          <td>The East Lothian Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EDU</td>
+          <td>Council area</td>
+          <td>East Dunbartonshire</td>
+          <td>The East Dunbartonshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EDH</td>
+          <td>Council area</td>
+          <td>Edinburgh</td>
+          <td>The City of Edinburgh Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EAY</td>
+          <td>Council area</td>
+          <td>East Ayrshire</td>
+          <td>The East Ayrshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DND</td>
+          <td>Council area</td>
+          <td>Dundee City</td>
+          <td>The Dundee City Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DGY</td>
+          <td>Council area</td>
+          <td>Dumfries and Galloway</td>
+          <td>The Dumfries and Galloway Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CLK</td>
+          <td>Council area</td>
+          <td>Clackmannanshire</td>
+          <td>The Clackmannanshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ANS</td>
+          <td>Council area</td>
+          <td>Angus</td>
+          <td>The Angus Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>AGB</td>
+          <td>Council area</td>
+          <td>Argyll and Bute</td>
+          <td>The Argyll and Bute Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ABE</td>
+          <td>Council area</td>
+          <td>Aberdeen City</td>
+          <td>The Aberdeen City Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ABD</td>
+          <td>Council area</td>
+          <td>Aberdeenshire</td>
+          <td>The Aberdeenshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

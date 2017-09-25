@@ -1,0 +1,2964 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="https://www.gov.uk/service-toolkit#components">Components</a></li>
+        <li><a href="index.html">GOV.UK Registers</a></li>
+        <li><a href="/registers.html">Registers collection</a></li>
+        <li>Local authority eng</li>
+      </ol>
+    </div>
+    <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge title">
+        Local authority eng
+      </h1>
+      <dl class="metadata">
+        <dt>Updated:</dt>
+        <dd>04/07/2017</dd>
+        <dt>Managed by:</dt>
+        <dd><a href="https://www.gov.uk/government/organisations/department-for-communities-and-local-government">Department For Communities And Local Government</a></dd>
+      </dl>
+      <p>Local authorities in England.</p>
+      <details>
+        <summary><span class="summary">What are Registers?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>Registers are reliable lists of information managed by one custodian from the government organisation responsible for maintaining the Register’s data.</p>
+          <p>You can easily combine data from some Registers with data from another Register to build your service. For example, this Register can be combined with other registers to create the <a href="local-autorities-uk.html">Local authorities in the UK</a> register.</p>
+          <p>
+          <a href="https://registers.cloudapps.digital/using-registers">Using Registers</a>
+          <br>
+          <a href="https://registers.cloudapps.digital/registers">Registers collection</a>
+          </p>
+        </div>
+      </details>
+      <details>
+        <summary><span class="summary">How do I use this Register in my service?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>There are 2 ways to use Registers. You can either:</p>
+          <ul class="list-bullet">
+          <li>use an <a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">application programming interface</a> (API) to automatically pull data from a register into your service</li>
+          <li>download the data for this Register and keep your own copy up-to-date</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+    <div class="column-one-third">
+      <h2 class="heading-small">Find out more</h2>
+      <ul>
+        <li><a href="#">Register updates</a></li>
+        <li><a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">API documentation</a></li>
+        <li><a href="https://www.gov.uk/guidance/creating-a-register">Create a register</a></li>
+        <li><a href="https://registers.cloudapps.digital/support">Contact the team</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="search-wrapper">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="form-group">
+          <label class="form-label" for="select-box">Filter by</label>
+          <select class="form-control" id="select-box" name="select-box">
+            <option>Existing records</option>
+            <option>Closed records</option>
+            <option>Existing and closed records</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <label>Search for a record</label>
+          <input class="form-control" id="search" name="search">
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="column-full">
+        <h2 class="heading-large">354 records</h2>
+        <details>
+          <summary><span class="summary">Get a copy of this data</span></summary>
+          <div class="panel panel-border-narrow">
+            <div class="download-options">
+              <p>Download this data as: <a href="#">TSV</a>, <a href="#">CSV</a> or as a <a href="#">Spreadsheet</a>.</p>
+              <p>Preview a sample as <a href="#">JSON</a>, <a href="#">YAML</a> or <a href="#">TTL</a>.</p>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary><span class="summary">What are the column headings?</span></summary>
+          <div class="panel panel-border-narrow">
+          <dl>
+            <dt>local-authority-eng</dt>
+            <dd>The local authority's ISO 3166-1 alpha3 code. Unique codes have been created for local authorities that don't have an existing ISO code.</dd>
+            <dt>local-authority-type</dt>
+            <dd>The type of local government organisation.</dd>
+            <dt>name</dt>
+            <dd>The commonly-used name of a record.</dd>
+            <dt>official-name</dt>
+            <dd>The official or technical name of a record.</dd>
+            <dt>start-date</dt>
+            <dd>The date a record first became relevant to a register.</dd>
+            <dt>end-date</dt>
+            <dd>The date a record stopped being applicable.</dd>
+          </dl>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row table-view">
+    <div class="column-full" id="table-column">
+      <div class="table-wrapper scroll">
+        <table>
+          <thead><tr><th title="Field #1">local-authority-eng</th>
+          <th title="Field #2">local-authority-type</th>
+          <th title="Field #3">name</th>
+          <th title="Field #4">official-name</th>
+          <th title="Field #5">start-date</th>
+          <th title="Field #6">end-date</th>
+          </tr></thead>
+          <tbody><tr>
+          <td>BIR</td>
+          <td>MD</td>
+          <td>Birmingham</td>
+          <td>Birmingham City Council</td>
+          <td>1986-07-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KIN</td>
+          <td>NMD</td>
+          <td>King&#39;s Lynn and West Norfolk</td>
+          <td>Borough Council of King&#39;s Lynn and West Norfolk</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GLA</td>
+          <td>SRA</td>
+          <td>Greater London</td>
+          <td>Greater London Authority</td>
+          <td>1905-06-22</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LND</td>
+          <td>CC</td>
+          <td>City of London</td>
+          <td>City of London Corporation</td>
+          <td>1905-06-28</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WOT</td>
+          <td>NMD</td>
+          <td>Worthing</td>
+          <td>Worthing Borough Council</td>
+          <td>1905-06-25</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MSS</td>
+          <td>NMD</td>
+          <td>Mid Sussex</td>
+          <td>Mid Sussex District Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HOR</td>
+          <td>NMD</td>
+          <td>Horsham</td>
+          <td>Horsham District Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CRW</td>
+          <td>NMD</td>
+          <td>Crawley</td>
+          <td>Crawley Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHI</td>
+          <td>NMD</td>
+          <td>Chichester</td>
+          <td>Chichester District Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ARU</td>
+          <td>NMD</td>
+          <td>Arun</td>
+          <td>Arun District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ADU</td>
+          <td>NMD</td>
+          <td>Adur</td>
+          <td>Adur District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WSX</td>
+          <td>CTY</td>
+          <td>West Sussex</td>
+          <td>West Sussex County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WYE</td>
+          <td>NMD</td>
+          <td>Wyre Forest</td>
+          <td>Wyre Forest District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WYC</td>
+          <td>NMD</td>
+          <td>Wychavon</td>
+          <td>Wychavon District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WOC</td>
+          <td>NMD</td>
+          <td>Worcester</td>
+          <td>Worcester City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RED</td>
+          <td>NMD</td>
+          <td>Redditch</td>
+          <td>Redditch Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MAV</td>
+          <td>NMD</td>
+          <td>Malvern Hills</td>
+          <td>Malvern Hills District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRM</td>
+          <td>NMD</td>
+          <td>Bromsgrove</td>
+          <td>Bromsgrove District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WOR</td>
+          <td>CTY</td>
+          <td>Worcestershire</td>
+          <td>Worcestershire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WAW</td>
+          <td>NMD</td>
+          <td>Warwick</td>
+          <td>Warwick District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STR</td>
+          <td>NMD</td>
+          <td>Stratford-on-Avon</td>
+          <td>Stratford-on-Avon District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RUG</td>
+          <td>NMD</td>
+          <td>Rugby</td>
+          <td>Rugby Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NUN</td>
+          <td>NMD</td>
+          <td>Nuneaton and Bedworth</td>
+          <td>Nuneaton and Bedworth Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NWA</td>
+          <td>NMD</td>
+          <td>North Warwickshire</td>
+          <td>North Warwickshire Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WAR</td>
+          <td>CTY</td>
+          <td>Warwickshire</td>
+          <td>Warwickshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TAW</td>
+          <td>NMD</td>
+          <td>Tamworth</td>
+          <td>Tamworth Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STF</td>
+          <td>NMD</td>
+          <td>Staffordshire Moorlands</td>
+          <td>Staffordshire Moorlands District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STA</td>
+          <td>NMD</td>
+          <td>Stafford</td>
+          <td>Stafford Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SST</td>
+          <td>NMD</td>
+          <td>South Staffordshire</td>
+          <td>South Staffordshire Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NEC</td>
+          <td>NMD</td>
+          <td>Newcastle-under-Lyme</td>
+          <td>Newcastle-under-Lyme Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LIF</td>
+          <td>NMD</td>
+          <td>Lichfield</td>
+          <td>Lichfield District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EST</td>
+          <td>NMD</td>
+          <td>East Staffordshire</td>
+          <td>East Staffordshire Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAN</td>
+          <td>NMD</td>
+          <td>Cannock Chase</td>
+          <td>Cannock Chase District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STS</td>
+          <td>CTY</td>
+          <td>Staffordshire</td>
+          <td>Staffordshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WOI</td>
+          <td>NMD</td>
+          <td>Woking</td>
+          <td>Woking Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WAE</td>
+          <td>NMD</td>
+          <td>Waverley</td>
+          <td>Waverley Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TAN</td>
+          <td>NMD</td>
+          <td>Tandridge</td>
+          <td>Tandridge District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SUR</td>
+          <td>NMD</td>
+          <td>Surrey Heath</td>
+          <td>Surrey Heath Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SPE</td>
+          <td>NMD</td>
+          <td>Spelthorne</td>
+          <td>Spelthorne Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RUN</td>
+          <td>NMD</td>
+          <td>Runnymede</td>
+          <td>Runnymede Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>REI</td>
+          <td>NMD</td>
+          <td>Reigate and Banstead</td>
+          <td>Reigate and Banstead Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MOL</td>
+          <td>NMD</td>
+          <td>Mole Valley</td>
+          <td>Mole Valley District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GRT</td>
+          <td>NMD</td>
+          <td>Guildford</td>
+          <td>Guildford Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EPS</td>
+          <td>NMD</td>
+          <td>Epsom and Ewell</td>
+          <td>Epsom and Ewell Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ELM</td>
+          <td>NMD</td>
+          <td>Elmbridge</td>
+          <td>Elmbridge Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SRY</td>
+          <td>CTY</td>
+          <td>Surrey</td>
+          <td>Surrey County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WSO</td>
+          <td>NMD</td>
+          <td>West Somerset</td>
+          <td>West Somerset District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TAU</td>
+          <td>NMD</td>
+          <td>Taunton Deane</td>
+          <td>Taunton Deane Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SSO</td>
+          <td>NMD</td>
+          <td>South Somerset</td>
+          <td>South Somerset District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SEG</td>
+          <td>NMD</td>
+          <td>Sedgemoor</td>
+          <td>Sedgemoor District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MEN</td>
+          <td>NMD</td>
+          <td>Mendip</td>
+          <td>Mendip District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SOM</td>
+          <td>CTY</td>
+          <td>Somerset</td>
+          <td>Somerset County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WAV</td>
+          <td>NMD</td>
+          <td>Waveney</td>
+          <td>Waveney District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SUF</td>
+          <td>NMD</td>
+          <td>Suffolk Coastal</td>
+          <td>Suffolk Coastal District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SED</td>
+          <td>NMD</td>
+          <td>St Edmundsbury</td>
+          <td>St Edmundsbury Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MSU</td>
+          <td>NMD</td>
+          <td>Mid Suffolk</td>
+          <td>Mid Suffolk District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>IPS</td>
+          <td>NMD</td>
+          <td>Ipswich</td>
+          <td>Ipswich Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FOR</td>
+          <td>NMD</td>
+          <td>Forest Heath</td>
+          <td>Forest Heath District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BAB</td>
+          <td>NMD</td>
+          <td>Babergh</td>
+          <td>Babergh District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SFK</td>
+          <td>CTY</td>
+          <td>Suffolk</td>
+          <td>Suffolk County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WOX</td>
+          <td>NMD</td>
+          <td>West Oxfordshire</td>
+          <td>West Oxfordshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>VAL</td>
+          <td>NMD</td>
+          <td>Vale of White Horse</td>
+          <td>Vale of White Horse District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SOX</td>
+          <td>NMD</td>
+          <td>South Oxfordshire</td>
+          <td>South Oxfordshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>OXO</td>
+          <td>NMD</td>
+          <td>Oxford</td>
+          <td>Oxford City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHR</td>
+          <td>NMD</td>
+          <td>Cherwell</td>
+          <td>Cherwell District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>OXF</td>
+          <td>CTY</td>
+          <td>Oxfordshire</td>
+          <td>Oxfordshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SEL</td>
+          <td>NMD</td>
+          <td>Selby</td>
+          <td>Selby District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SCE</td>
+          <td>NMD</td>
+          <td>Scarborough</td>
+          <td>Scarborough Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RYE</td>
+          <td>NMD</td>
+          <td>Ryedale</td>
+          <td>Ryedale District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RIH</td>
+          <td>NMD</td>
+          <td>Richmondshire</td>
+          <td>Richmondshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAG</td>
+          <td>NMD</td>
+          <td>Harrogate</td>
+          <td>Harrogate Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAE</td>
+          <td>NMD</td>
+          <td>Hambleton</td>
+          <td>Hambleton District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CRA</td>
+          <td>NMD</td>
+          <td>Craven</td>
+          <td>Craven District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NYK</td>
+          <td>CTY</td>
+          <td>North Yorkshire</td>
+          <td>North Yorkshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RUS</td>
+          <td>NMD</td>
+          <td>Rushcliffe</td>
+          <td>Rushcliffe Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NEA</td>
+          <td>NMD</td>
+          <td>Newark and Sherwood</td>
+          <td>Newark and Sherwood District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MAS</td>
+          <td>NMD</td>
+          <td>Mansfield</td>
+          <td>Mansfield District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GED</td>
+          <td>NMD</td>
+          <td>Gedling</td>
+          <td>Gedling Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRT</td>
+          <td>NMD</td>
+          <td>Broxtowe</td>
+          <td>Broxtowe Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BAE</td>
+          <td>NMD</td>
+          <td>Bassetlaw</td>
+          <td>Bassetlaw District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ASH</td>
+          <td>NMD</td>
+          <td>Ashfield</td>
+          <td>Ashfield District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NTT</td>
+          <td>CTY</td>
+          <td>Nottinghamshire</td>
+          <td>Nottinghamshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WEL</td>
+          <td>NMD</td>
+          <td>Wellingborough</td>
+          <td>Wellingborough Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SNR</td>
+          <td>NMD</td>
+          <td>South Northamptonshire</td>
+          <td>South Northamptonshire Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NOR</td>
+          <td>NMD</td>
+          <td>Northampton</td>
+          <td>Northampton Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KET</td>
+          <td>NMD</td>
+          <td>Kettering</td>
+          <td>Kettering Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ENO</td>
+          <td>NMD</td>
+          <td>East Northamptonshire</td>
+          <td>East Northamptonshire Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DAV</td>
+          <td>NMD</td>
+          <td>Daventry</td>
+          <td>Daventry District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>COR</td>
+          <td>NMD</td>
+          <td>Corby</td>
+          <td>Corby Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NTH</td>
+          <td>CTY</td>
+          <td>Northamptonshire</td>
+          <td>Northamptonshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SNO</td>
+          <td>NMD</td>
+          <td>South Norfolk</td>
+          <td>South Norfolk District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NOW</td>
+          <td>NMD</td>
+          <td>Norwich</td>
+          <td>Norwich City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NNO</td>
+          <td>NMD</td>
+          <td>North Norfolk</td>
+          <td>North Norfolk District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GRY</td>
+          <td>NMD</td>
+          <td>Great Yarmouth</td>
+          <td>Great Yarmouth Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRO</td>
+          <td>NMD</td>
+          <td>Broadland</td>
+          <td>Broadland District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRE</td>
+          <td>NMD</td>
+          <td>Breckland</td>
+          <td>Breckland District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NFK</td>
+          <td>CTY</td>
+          <td>Norfolk</td>
+          <td>Norfolk County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WLI</td>
+          <td>NMD</td>
+          <td>West Lindsey</td>
+          <td>West Lindsey District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SKE</td>
+          <td>NMD</td>
+          <td>South Kesteven</td>
+          <td>South Kesteven District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SHO</td>
+          <td>NMD</td>
+          <td>South Holland</td>
+          <td>South Holland District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NKE</td>
+          <td>NMD</td>
+          <td>North Kesteven</td>
+          <td>North Kesteven District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LIC</td>
+          <td>NMD</td>
+          <td>City of Lincoln</td>
+          <td>City of Lincoln Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ELI</td>
+          <td>NMD</td>
+          <td>East Lindsey</td>
+          <td>East Lindsey District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BOT</td>
+          <td>NMD</td>
+          <td>Boston</td>
+          <td>Boston Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LIN</td>
+          <td>CTY</td>
+          <td>Lincolnshire</td>
+          <td>Lincolnshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>OAD</td>
+          <td>NMD</td>
+          <td>Oadby and Wigston</td>
+          <td>Oadby and Wigston Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NWL</td>
+          <td>NMD</td>
+          <td>North West Leicestershire</td>
+          <td>North West Leicestershire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MEL</td>
+          <td>NMD</td>
+          <td>Melton</td>
+          <td>Melton Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HIN</td>
+          <td>NMD</td>
+          <td>Hinckley and Bosworth</td>
+          <td>Hinckley and Bosworth Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAO</td>
+          <td>NMD</td>
+          <td>Harborough</td>
+          <td>Harborough District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHA</td>
+          <td>NMD</td>
+          <td>Charnwood</td>
+          <td>Charnwood Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BLA</td>
+          <td>NMD</td>
+          <td>Blaby</td>
+          <td>Blaby District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LEC</td>
+          <td>CTY</td>
+          <td>Leicestershire</td>
+          <td>Leicestershire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WYR</td>
+          <td>NMD</td>
+          <td>Wyre</td>
+          <td>Wyre Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WLA</td>
+          <td>NMD</td>
+          <td>West Lancashire</td>
+          <td>West Lancashire Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SRI</td>
+          <td>NMD</td>
+          <td>South Ribble</td>
+          <td>South Ribble Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ROS</td>
+          <td>NMD</td>
+          <td>Rossendale</td>
+          <td>Rossendale Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RIB</td>
+          <td>NMD</td>
+          <td>Ribble Valley</td>
+          <td>Ribble Valley Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PRE</td>
+          <td>NMD</td>
+          <td>Preston</td>
+          <td>Preston City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PEN</td>
+          <td>NMD</td>
+          <td>Pendle</td>
+          <td>Pendle Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LAC</td>
+          <td>NMD</td>
+          <td>Lancaster</td>
+          <td>Lancaster City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HYN</td>
+          <td>NMD</td>
+          <td>Hyndburn</td>
+          <td>Hyndburn Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FYL</td>
+          <td>NMD</td>
+          <td>Fylde</td>
+          <td>Fylde Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHO</td>
+          <td>NMD</td>
+          <td>Chorley</td>
+          <td>Chorley Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BUN</td>
+          <td>NMD</td>
+          <td>Burnley</td>
+          <td>Burnley Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LAN</td>
+          <td>CTY</td>
+          <td>Lancashire</td>
+          <td>Lancashire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TUN</td>
+          <td>NMD</td>
+          <td>Tunbridge Wells</td>
+          <td>Tunbridge Wells Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TON</td>
+          <td>NMD</td>
+          <td>Tonbridge and Malling</td>
+          <td>Tonbridge and Malling Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>THA</td>
+          <td>NMD</td>
+          <td>Thanet</td>
+          <td>Thanet District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SWL</td>
+          <td>NMD</td>
+          <td>Swale</td>
+          <td>Swale Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SHE</td>
+          <td>NMD</td>
+          <td>Shepway</td>
+          <td>Shepway District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SEV</td>
+          <td>NMD</td>
+          <td>Sevenoaks</td>
+          <td>Sevenoaks District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MAI</td>
+          <td>NMD</td>
+          <td>Maidstone</td>
+          <td>Maidstone Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GRA</td>
+          <td>NMD</td>
+          <td>Gravesham</td>
+          <td>Gravesham Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DOV</td>
+          <td>NMD</td>
+          <td>Dover</td>
+          <td>Dover District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DAR</td>
+          <td>NMD</td>
+          <td>Dartford</td>
+          <td>Dartford Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAT</td>
+          <td>NMD</td>
+          <td>Canterbury</td>
+          <td>Canterbury City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ASF</td>
+          <td>NMD</td>
+          <td>Ashford</td>
+          <td>Ashford Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KEN</td>
+          <td>CTY</td>
+          <td>Kent</td>
+          <td>Kent County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WEW</td>
+          <td>NMD</td>
+          <td>Welwyn Hatfield</td>
+          <td>Welwyn Hatfield Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WAT</td>
+          <td>NMD</td>
+          <td>Watford</td>
+          <td>Watford Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>THE</td>
+          <td>NMD</td>
+          <td>Three Rivers</td>
+          <td>Three Rivers District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STV</td>
+          <td>NMD</td>
+          <td>Stevenage</td>
+          <td>Stevenage Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SAL</td>
+          <td>NMD</td>
+          <td>St Albans</td>
+          <td>St Albans City and District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NHE</td>
+          <td>NMD</td>
+          <td>North Hertfordshire</td>
+          <td>North Hertfordshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HER</td>
+          <td>NMD</td>
+          <td>Hertsmere</td>
+          <td>Hertsmere Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EHE</td>
+          <td>NMD</td>
+          <td>East Hertfordshire</td>
+          <td>East Hertfordshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DAC</td>
+          <td>NMD</td>
+          <td>Dacorum</td>
+          <td>Dacorum Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRX</td>
+          <td>NMD</td>
+          <td>Broxbourne</td>
+          <td>Broxbourne Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HRT</td>
+          <td>CTY</td>
+          <td>Hertfordshire</td>
+          <td>Hertfordshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WIN</td>
+          <td>NMD</td>
+          <td>Winchester</td>
+          <td>Winchester City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TES</td>
+          <td>NMD</td>
+          <td>Test Valley</td>
+          <td>Test Valley Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RUH</td>
+          <td>NMD</td>
+          <td>Rushmoor</td>
+          <td>Rushmoor Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NEW</td>
+          <td>NMD</td>
+          <td>New Forest</td>
+          <td>New Forest District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAA</td>
+          <td>NMD</td>
+          <td>Havant</td>
+          <td>Havant Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAT</td>
+          <td>NMD</td>
+          <td>Hart</td>
+          <td>Hart District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GOS</td>
+          <td>NMD</td>
+          <td>Gosport</td>
+          <td>Gosport Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FAR</td>
+          <td>NMD</td>
+          <td>Fareham</td>
+          <td>Fareham Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EAT</td>
+          <td>NMD</td>
+          <td>Eastleigh</td>
+          <td>Eastleigh Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EHA</td>
+          <td>NMD</td>
+          <td>East Hampshire</td>
+          <td>East Hampshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BAN</td>
+          <td>NMD</td>
+          <td>Basingstoke and Deane</td>
+          <td>Basingstoke and Deane Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAM</td>
+          <td>CTY</td>
+          <td>Hampshire</td>
+          <td>Hampshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TEW</td>
+          <td>NMD</td>
+          <td>Tewkesbury</td>
+          <td>Tewkesbury Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STO</td>
+          <td>NMD</td>
+          <td>Stroud</td>
+          <td>Stroud District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GLO</td>
+          <td>NMD</td>
+          <td>Gloucester</td>
+          <td>Gloucester City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FOE</td>
+          <td>NMD</td>
+          <td>Forest of Dean</td>
+          <td>Forest of Dean District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>COT</td>
+          <td>NMD</td>
+          <td>Cotswold</td>
+          <td>Cotswold District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHT</td>
+          <td>NMD</td>
+          <td>Cheltenham</td>
+          <td>Cheltenham Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GLS</td>
+          <td>CTY</td>
+          <td>Gloucestershire</td>
+          <td>Gloucestershire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WSM</td>
+          <td>LBO</td>
+          <td>Westminster</td>
+          <td>City of Westminster</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WND</td>
+          <td>LBO</td>
+          <td>Wandsworth</td>
+          <td>London Borough of Wandsworth</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WFT</td>
+          <td>LBO</td>
+          <td>Waltham Forest</td>
+          <td>London Borough of Waltham Forest</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TWH</td>
+          <td>LBO</td>
+          <td>Tower Hamlets</td>
+          <td>London Borough of Tower Hamlets</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SWK</td>
+          <td>LBO</td>
+          <td>Southwark</td>
+          <td>London Borough of Southwark</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STN</td>
+          <td>LBO</td>
+          <td>Sutton</td>
+          <td>London Borough of Sutton</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RIC</td>
+          <td>LBO</td>
+          <td>Richmond upon Thames</td>
+          <td>London Borough of Richmond upon Thames</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RDB</td>
+          <td>LBO</td>
+          <td>Redbridge</td>
+          <td>London Borough of Redbridge</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NWM</td>
+          <td>LBO</td>
+          <td>Newham</td>
+          <td>London Borough of Newham</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MRT</td>
+          <td>LBO</td>
+          <td>Merton</td>
+          <td>London Borough of Merton</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LEW</td>
+          <td>LBO</td>
+          <td>Lewisham</td>
+          <td>London Borough of Lewisham</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LBH</td>
+          <td>LBO</td>
+          <td>Lambeth</td>
+          <td>London Borough of Lambeth</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KTT</td>
+          <td>LBO</td>
+          <td>Kingston upon Thames</td>
+          <td>Royal Borough of Kingston upon Thames</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KEC</td>
+          <td>LBO</td>
+          <td>Kensington and Chelsea</td>
+          <td>Royal Borough of Kensington and Chelsea</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ISL</td>
+          <td>LBO</td>
+          <td>Islington</td>
+          <td>London Borough of Islington</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HRY</td>
+          <td>LBO</td>
+          <td>Haringey</td>
+          <td>London Borough of Haringey</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HRW</td>
+          <td>LBO</td>
+          <td>Harrow</td>
+          <td>London Borough of Harrow</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HNS</td>
+          <td>LBO</td>
+          <td>Hounslow</td>
+          <td>London Borough of Hounslow</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HMF</td>
+          <td>LBO</td>
+          <td>Hammersmith and Fulham</td>
+          <td>London Borough of Hammersmith &amp; Fulham</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HIL</td>
+          <td>LBO</td>
+          <td>Hillingdon</td>
+          <td>London Borough of Hillingdon</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HCK</td>
+          <td>LBO</td>
+          <td>Hackney</td>
+          <td>London Borough of Hackney</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAV</td>
+          <td>LBO</td>
+          <td>Havering</td>
+          <td>London Borough of Havering</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GRE</td>
+          <td>LBO</td>
+          <td>Greenwich</td>
+          <td>Royal Borough of Greenwich</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ENF</td>
+          <td>LBO</td>
+          <td>Enfield</td>
+          <td>London Borough of Enfield</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EAL</td>
+          <td>LBO</td>
+          <td>Ealing</td>
+          <td>London Borough of Ealing</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CRY</td>
+          <td>LBO</td>
+          <td>Croydon</td>
+          <td>London Borough of Croydon</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CMD</td>
+          <td>LBO</td>
+          <td>Camden</td>
+          <td>London Borough of Camden</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRY</td>
+          <td>LBO</td>
+          <td>Bromley</td>
+          <td>London Borough of Bromley</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BNE</td>
+          <td>LBO</td>
+          <td>Barnet</td>
+          <td>London Borough of Barnet</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BEX</td>
+          <td>LBO</td>
+          <td>Bexley</td>
+          <td>London Borough of Bexley</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BEN</td>
+          <td>LBO</td>
+          <td>Brent</td>
+          <td>London Borough of Brent</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BDG</td>
+          <td>LBO</td>
+          <td>Barking and Dagenham</td>
+          <td>London Borough of Barking and Dagenham</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WEA</td>
+          <td>NMD</td>
+          <td>Wealden</td>
+          <td>Wealden District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ROH</td>
+          <td>NMD</td>
+          <td>Rother</td>
+          <td>Rother District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LEE</td>
+          <td>NMD</td>
+          <td>Lewes</td>
+          <td>Lewes District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAS</td>
+          <td>NMD</td>
+          <td>Hastings</td>
+          <td>Hastings Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EAS</td>
+          <td>NMD</td>
+          <td>Eastbourne</td>
+          <td>Eastbourne Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ESX</td>
+          <td>CTY</td>
+          <td>East Sussex</td>
+          <td>East Sussex County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>UTT</td>
+          <td>NMD</td>
+          <td>Uttlesford</td>
+          <td>Uttlesford District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TEN</td>
+          <td>NMD</td>
+          <td>Tendring</td>
+          <td>Tendring District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ROC</td>
+          <td>NMD</td>
+          <td>Rochford</td>
+          <td>Rochford District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MAL</td>
+          <td>NMD</td>
+          <td>Maldon</td>
+          <td>Maldon District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAR</td>
+          <td>NMD</td>
+          <td>Harlow</td>
+          <td>Harlow District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EPP</td>
+          <td>NMD</td>
+          <td>Epping Forest</td>
+          <td>Epping Forest District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>COL</td>
+          <td>NMD</td>
+          <td>Colchester</td>
+          <td>Colchester Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHL</td>
+          <td>NMD</td>
+          <td>Chelmsford</td>
+          <td>Chelmsford City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAS</td>
+          <td>NMD</td>
+          <td>Castle Point</td>
+          <td>Castle Point Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRW</td>
+          <td>NMD</td>
+          <td>Brentwood</td>
+          <td>Brentwood Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRA</td>
+          <td>NMD</td>
+          <td>Braintree</td>
+          <td>Braintree District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BAI</td>
+          <td>NMD</td>
+          <td>Basildon</td>
+          <td>Basildon Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ESS</td>
+          <td>CTY</td>
+          <td>Essex</td>
+          <td>Essex County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WEY</td>
+          <td>NMD</td>
+          <td>Weymouth and Portland</td>
+          <td>Weymouth and Portland Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WDO</td>
+          <td>NMD</td>
+          <td>West Dorset</td>
+          <td>West Dorset District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PUR</td>
+          <td>NMD</td>
+          <td>Purbeck</td>
+          <td>Purbeck District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NDO</td>
+          <td>NMD</td>
+          <td>North Dorset</td>
+          <td>North Dorset District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EDO</td>
+          <td>NMD</td>
+          <td>East Dorset</td>
+          <td>East Dorset District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHC</td>
+          <td>NMD</td>
+          <td>Christchurch</td>
+          <td>Christchurch Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DOR</td>
+          <td>CTY</td>
+          <td>Dorset</td>
+          <td>Dorset County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WDE</td>
+          <td>NMD</td>
+          <td>West Devon</td>
+          <td>West Devon Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TOR</td>
+          <td>NMD</td>
+          <td>Torridge</td>
+          <td>Torridge District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TEI</td>
+          <td>NMD</td>
+          <td>Teignbridge</td>
+          <td>Teignbridge District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SHA</td>
+          <td>NMD</td>
+          <td>South Hams</td>
+          <td>South Hams District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NDE</td>
+          <td>NMD</td>
+          <td>North Devon</td>
+          <td>North Devon District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MDE</td>
+          <td>NMD</td>
+          <td>Mid Devon</td>
+          <td>Mid Devon District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EXE</td>
+          <td>NMD</td>
+          <td>Exeter</td>
+          <td>Exeter City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EDE</td>
+          <td>NMD</td>
+          <td>East Devon</td>
+          <td>East Devon District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DEV</td>
+          <td>CTY</td>
+          <td>Devon</td>
+          <td>Devon County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SDE</td>
+          <td>NMD</td>
+          <td>South Derbyshire</td>
+          <td>South Derbyshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NED</td>
+          <td>NMD</td>
+          <td>North East Derbyshire</td>
+          <td>North East Derbyshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HIG</td>
+          <td>NMD</td>
+          <td>High Peak</td>
+          <td>High Peak Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ERE</td>
+          <td>NMD</td>
+          <td>Erewash</td>
+          <td>Erewash Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DEB</td>
+          <td>NMD</td>
+          <td>Derbyshire Dales</td>
+          <td>Derbyshire Dales District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHS</td>
+          <td>NMD</td>
+          <td>Chesterfield</td>
+          <td>Chesterfield Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BOS</td>
+          <td>NMD</td>
+          <td>Bolsover</td>
+          <td>Bolsover District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>AMB</td>
+          <td>NMD</td>
+          <td>Amber Valley</td>
+          <td>Amber Valley Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DBY</td>
+          <td>CTY</td>
+          <td>Derbyshire</td>
+          <td>Derbyshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DER</td>
+          <td>UA</td>
+          <td>Derby</td>
+          <td>Derby City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SLA</td>
+          <td>NMD</td>
+          <td>South Lakeland</td>
+          <td>South Lakeland District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>EDN</td>
+          <td>NMD</td>
+          <td>Eden</td>
+          <td>Eden District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>COP</td>
+          <td>NMD</td>
+          <td>Copeland</td>
+          <td>Copeland Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAR</td>
+          <td>NMD</td>
+          <td>Carlisle</td>
+          <td>Carlisle City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BAR</td>
+          <td>NMD</td>
+          <td>Barrow-in-Furness</td>
+          <td>Barrow-in-Furness Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ALL</td>
+          <td>NMD</td>
+          <td>Allerdale</td>
+          <td>Allerdale Borough Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CMA</td>
+          <td>CTY</td>
+          <td>Cumbria</td>
+          <td>Cumbria County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SCA</td>
+          <td>NMD</td>
+          <td>South Cambridgeshire</td>
+          <td>South Cambridgeshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HUN</td>
+          <td>NMD</td>
+          <td>Huntingdonshire</td>
+          <td>Huntingdonshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FEN</td>
+          <td>NMD</td>
+          <td>Fenland</td>
+          <td>Fenland District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ECA</td>
+          <td>NMD</td>
+          <td>East Cambridgeshire</td>
+          <td>East Cambridgeshire District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAB</td>
+          <td>NMD</td>
+          <td>Cambridge</td>
+          <td>Cambridge City Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAM</td>
+          <td>CTY</td>
+          <td>Cambridgeshire</td>
+          <td>Cambridgeshire County Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WYO</td>
+          <td>NMD</td>
+          <td>Wycombe</td>
+          <td>Wycombe District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SBU</td>
+          <td>NMD</td>
+          <td>South Bucks</td>
+          <td>South Bucks District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHN</td>
+          <td>NMD</td>
+          <td>Chiltern</td>
+          <td>Chiltern District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>AYL</td>
+          <td>NMD</td>
+          <td>Aylesbury Vale</td>
+          <td>Aylesbury Vale District Council</td>
+          <td class="not-found">No data found</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BKM</td>
+          <td>CTY</td>
+          <td>Buckinghamshire</td>
+          <td>Buckinghamshire County Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>YOR</td>
+          <td>UA</td>
+          <td>York</td>
+          <td>City of York Council</td>
+          <td>1905-06-18</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WRT</td>
+          <td>UA</td>
+          <td>Warrington</td>
+          <td>Warrington Borough Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WRL</td>
+          <td>MD</td>
+          <td>Wirral</td>
+          <td>Wirral Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WOK</td>
+          <td>UA</td>
+          <td>Wokingham</td>
+          <td>Wokingham Borough Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WNM</td>
+          <td>UA</td>
+          <td>Windsor and Maidenhead</td>
+          <td>Royal Borough of Windsor and Maidenhead</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WLV</td>
+          <td>MD</td>
+          <td>Wolverhampton</td>
+          <td>City of Wolverhampton Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WLL</td>
+          <td>MD</td>
+          <td>Walsall</td>
+          <td>Walsall Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WKF</td>
+          <td>MD</td>
+          <td>Wakefield</td>
+          <td>Wakefield Metropolitan District Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WIL</td>
+          <td>UA</td>
+          <td>Wiltshire</td>
+          <td>Wiltshire Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WGN</td>
+          <td>MD</td>
+          <td>Wigan</td>
+          <td>Wigan Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WBK</td>
+          <td>UA</td>
+          <td>West Berkshire</td>
+          <td>West Berkshire Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TRF</td>
+          <td>MD</td>
+          <td>Trafford</td>
+          <td>Trafford Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TOB</td>
+          <td>UA</td>
+          <td>Torbay</td>
+          <td>Torbay Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>THR</td>
+          <td>UA</td>
+          <td>Thurrock</td>
+          <td>Thurrock Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TFW</td>
+          <td>UA</td>
+          <td>Telford and Wrekin</td>
+          <td>Telford &amp; Wrekin Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TAM</td>
+          <td>MD</td>
+          <td>Tameside</td>
+          <td>Tameside Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SWD</td>
+          <td>UA</td>
+          <td>Swindon</td>
+          <td>Swindon Borough Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STY</td>
+          <td>MD</td>
+          <td>South Tyneside</td>
+          <td>South Tyneside Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STT</td>
+          <td>UA</td>
+          <td>Stockton-on-Tees</td>
+          <td>Stockton-on-Tees Borough Council</td>
+          <td>1905-06-18</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STH</td>
+          <td>UA</td>
+          <td>Southampton</td>
+          <td>Southampton City Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>STE</td>
+          <td>UA</td>
+          <td>Stoke-on-Trent</td>
+          <td>Stoke-on-Trent City Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SOS</td>
+          <td>UA</td>
+          <td>Southend-on-Sea</td>
+          <td>Southend-on-Sea Borough Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SOL</td>
+          <td>MD</td>
+          <td>Solihull</td>
+          <td>Solihull Metropolitan Borough Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SND</td>
+          <td>MD</td>
+          <td>Sunderland</td>
+          <td>Sunderland City Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SLG</td>
+          <td>UA</td>
+          <td>Slough</td>
+          <td>Slough Borough Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SLF</td>
+          <td>MD</td>
+          <td>Salford</td>
+          <td>Salford City Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SKP</td>
+          <td>MD</td>
+          <td>Stockport</td>
+          <td>Stockport Metropolitan Borough Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SHR</td>
+          <td>UA</td>
+          <td>Shropshire</td>
+          <td>Shropshire Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SHN</td>
+          <td>MD</td>
+          <td>St. Helens</td>
+          <td>St Helens Council</td>
+          <td>1905-06-08</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SHF</td>
+          <td>MD</td>
+          <td>Sheffield</td>
+          <td>Sheffield City Council</td>
+          <td>1905-06-08</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SGC</td>
+          <td>UA</td>
+          <td>South Gloucestershire</td>
+          <td>South Gloucestershire Council</td>
+          <td>1905-06-18</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SFT</td>
+          <td>MD</td>
+          <td>Sefton</td>
+          <td>Sefton Metropolitan Borough Council</td>
+          <td>1905-06-08</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SAW</td>
+          <td>MD</td>
+          <td>Sandwell</td>
+          <td>Sandwell Metropolitan Borough Council</td>
+          <td>1905-06-07</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RUT</td>
+          <td>UA</td>
+          <td>Rutland</td>
+          <td>Rutland County Council</td>
+          <td>1997-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ROT</td>
+          <td>MD</td>
+          <td>Rotherham</td>
+          <td>Rotherham Metropolitan Borough Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RDG</td>
+          <td>UA</td>
+          <td>Reading</td>
+          <td>Reading Borough Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RCH</td>
+          <td>MD</td>
+          <td>Rochdale</td>
+          <td>Rochdale Metropolitan Borough Council</td>
+          <td>1905-05-27</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>RCC</td>
+          <td>UA</td>
+          <td>Redcar and Cleveland</td>
+          <td>Redcar and Cleveland Borough Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PTE</td>
+          <td>UA</td>
+          <td>Peterborough</td>
+          <td>Peterborough City Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>POR</td>
+          <td>UA</td>
+          <td>Portsmouth</td>
+          <td>Portsmouth City Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>POL</td>
+          <td>UA</td>
+          <td>Poole</td>
+          <td>Borough of Poole</td>
+          <td>1997-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PLY</td>
+          <td>UA</td>
+          <td>Plymouth</td>
+          <td>Plymouth City Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>OLD</td>
+          <td>MD</td>
+          <td>Oldham</td>
+          <td>Oldham Metropolitan Borough Council</td>
+          <td>1905-06-07</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NTY</td>
+          <td>MD</td>
+          <td>North Tyneside</td>
+          <td>North Tyneside Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NSM</td>
+          <td>UA</td>
+          <td>North Somerset</td>
+          <td>North Somerset  Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NLN</td>
+          <td>UA</td>
+          <td>North Lincolnshire</td>
+          <td>North Lincolnshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NGM</td>
+          <td>UA</td>
+          <td>Nottingham</td>
+          <td>Nottingham City Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NET</td>
+          <td>MD</td>
+          <td>Newcastle upon Tyne</td>
+          <td>Newcastle City Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NEL</td>
+          <td>UA</td>
+          <td>North East Lincolnshire</td>
+          <td>North East Lincolnshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NBL</td>
+          <td>UA</td>
+          <td>Northumberland</td>
+          <td>Northumberland County Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MIK</td>
+          <td>UA</td>
+          <td>Milton Keynes</td>
+          <td>Milton Keynes Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MDW</td>
+          <td>UA</td>
+          <td>Medway</td>
+          <td>Medway Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MDB</td>
+          <td>UA</td>
+          <td>Middlesbrough</td>
+          <td>Middlesbrough Borough Council</td>
+          <td>1905-06-18</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MAN</td>
+          <td>MD</td>
+          <td>Manchester</td>
+          <td>Manchester City Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LUT</td>
+          <td>UA</td>
+          <td>Luton</td>
+          <td>Luton Borough Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LIV</td>
+          <td>MD</td>
+          <td>Liverpool</td>
+          <td>Liverpool City Council</td>
+          <td>1905-06-08</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LDS</td>
+          <td>MD</td>
+          <td>Leeds</td>
+          <td>Leeds City Council</td>
+          <td>1905-06-08</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>LCE</td>
+          <td>UA</td>
+          <td>Leicester</td>
+          <td>Leicester City Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KWL</td>
+          <td>MD</td>
+          <td>Knowsley</td>
+          <td>Knowsley Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KIR</td>
+          <td>MD</td>
+          <td>Kirklees</td>
+          <td>Kirklees Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>KHL</td>
+          <td>UA</td>
+          <td>Kingston upon Hull</td>
+          <td>Hull City Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>IOW</td>
+          <td>UA</td>
+          <td>Isle of Wight</td>
+          <td>Isle of Wight Council</td>
+          <td>1905-06-17</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>IOS</td>
+          <td>UA</td>
+          <td>Isles of Scilly</td>
+          <td>Council of the Isles of Scilly</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HPL</td>
+          <td>UA</td>
+          <td>Hartlepool</td>
+          <td>Hartlepool Borough Council</td>
+          <td>1905-06-18</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HEF</td>
+          <td>UA</td>
+          <td>Herefordshire</td>
+          <td>Herefordshire Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>HAL</td>
+          <td>UA</td>
+          <td>Halton</td>
+          <td>Halton Borough Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GAT</td>
+          <td>MD</td>
+          <td>Gateshead</td>
+          <td>Gateshead Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>ERY</td>
+          <td>UA</td>
+          <td>East Riding of Yorkshire</td>
+          <td>East Riding of Yorkshire Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DUR</td>
+          <td>UA</td>
+          <td>County Durham</td>
+          <td>Durham County Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DUD</td>
+          <td>MD</td>
+          <td>Dudley</td>
+          <td>Dudley Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DNC</td>
+          <td>MD</td>
+          <td>Doncaster</td>
+          <td>Doncaster Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DAL</td>
+          <td>UA</td>
+          <td>Darlington</td>
+          <td>Darlington Borough Council</td>
+          <td>1997-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>COV</td>
+          <td>MD</td>
+          <td>Coventry</td>
+          <td>Coventry City Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CON</td>
+          <td>UA</td>
+          <td>Cornwall</td>
+          <td>Cornwall Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CLD</td>
+          <td>MD</td>
+          <td>Calderdale</td>
+          <td>Calderdale Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHW</td>
+          <td>UA</td>
+          <td>Cheshire West and Chester</td>
+          <td>Cheshire West and Chester Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CHE</td>
+          <td>UA</td>
+          <td>Cheshire East</td>
+          <td>Cheshire East Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CBF</td>
+          <td>UA</td>
+          <td>Central Bedfordshire</td>
+          <td>Central Bedfordshire Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BUR</td>
+          <td>MD</td>
+          <td>Bury</td>
+          <td>Bury Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BST</td>
+          <td>UA</td>
+          <td>City of Bristol</td>
+          <td>Bristol City Council</td>
+          <td>1905-06-18</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRD</td>
+          <td>MD</td>
+          <td>Bradford</td>
+          <td>City of Bradford Metropolitan District Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BRC</td>
+          <td>UA</td>
+          <td>Bracknell Forest</td>
+          <td>Bracknell Forest Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BPL</td>
+          <td>UA</td>
+          <td>Blackpool</td>
+          <td>Blackpool Borough Council</td>
+          <td>1905-06-20</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BOL</td>
+          <td>MD</td>
+          <td>Bolton</td>
+          <td>Bolton Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BNS</td>
+          <td>MD</td>
+          <td>Barnsley</td>
+          <td>Barnsley Metropolitan Borough Council</td>
+          <td>1974-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BNH</td>
+          <td>UA</td>
+          <td>Brighton and Hove</td>
+          <td>Brighton and Hove City Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BMH</td>
+          <td>UA</td>
+          <td>Bournemouth</td>
+          <td>Bournemouth Borough Council</td>
+          <td>1905-06-19</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BDF</td>
+          <td>UA</td>
+          <td>Bedford</td>
+          <td>Bedford Borough Council</td>
+          <td>2009-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BBD</td>
+          <td>UA</td>
+          <td>Blackburn with Darwen</td>
+          <td>Blackburn with Darwen Borough Council</td>
+          <td>1998-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BAS</td>
+          <td>UA</td>
+          <td>Bath and North East Somerset</td>
+          <td>Bath and North East Somerset Council</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
