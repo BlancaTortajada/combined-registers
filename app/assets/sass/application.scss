@@ -583,6 +583,11 @@ ul.tabs {
 // // Nav style changes
 // // ==========================================================================
 
+#global-header .header-proposition #proposition-name {
+  font-weight: normal;
+}
+
+
 #global-header.with-proposition .header-wrapper .header-proposition {
   margin-top: 7px;
 }
