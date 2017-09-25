@@ -1,21 +1,92 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  GOV.UK prototype kit
+GOV.UK prototype kit
+{% endblock %}
+
+{% block body_classes %}
+  home-page
 {% endblock %}
 
 {% block content %}
 
-<main id="content" role="main">
-  <div class="breadcrumbs">
+<div class='masthead'>
+  <div class='breadcrumbs breadcrumbs--inverse' data-module='track-click'>
     <ol>
-      <li><a href="https://www.gov.uk/service-toolkit#components">Components</a></li>
-      <li>GOV.UK Registers</li>
+      <li>
+        <a target="blank" href="https://www.gov.uk/service-toolkit">Components</a>
+      </li>
+      <li class='active'>
+        GOV.UK Registers
+      </li>
     </ol>
   </div>
-  <div class="grid-row">
-    <div class="column-two-thirds">
-      <p>This is where the home page goes</p>
+  <div class='container'>
+    <div class='grid-row'>
+      <div class='column-two-thirds'>
+        <h1 class='heading-xlarge'>Build services using accurate and up-to-date data</h1>
+        <p class='lede'>Use registers to build your service and get access to current and reliable data.</p>
+      </div>
+      <div class='column-one-third'>
+        <img class="hide-for-small" src="public/images/registers-top-image.png" alt="Registers top image" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id='content' role='main'>
+  <div class='product-page-section'>
+    <div class='grid-row'>
+      <div class='column-two-thirds'>
+        <h2 class='heading-large'>What registers are</h2>
+        <p>Registers are lists of information. Each register is the most reliable list of its kind. For example, the Foreign and Commonwealth Office’s (FCO’s) <a href="/country?phase=beta">country register</a> is the most accurate and up-to-date list of countries available.</p>
+        <h2 class='heading-large'>The benefits of registers</h2>
+        <p>Using a register will mean you’re only ever working with one reliable and current source of data. You can focus on building your service rather than checking if the data you’re using from other sources is accurate and trustworthy.</p>
+        <p>Visit the <a href="/registers">registers page</a> to see all of the registers that are <a target="blank" href="/registers?phase=Ready+to+use">available to use</a> now.</p>
+        <h2 class='heading-large'>Getting started</h2>
+        <p>Registers can also help you if you collect, manage or store data for your organisation. We’ve made it really simple to find out how custodians and the GOV.UK Registers team work together to <a target="blank" href="https://www.gov.uk/guidance/creating-a-register">create a register</a>.</p>
+        <p>Each register has an open API you can use to access the data without any authentication. There’s more information about using the register APIs in the <a target="blank" href="https://registers-docs.cloudapps.digital/">technical documentation</a>.</p>
+
+        <h2 class='heading-large'>Get in touch</h2>
+        <p>
+          <a href="https://registers.cloudapps.digital/support">Contact the team</a>
+          if you have any questions about using GOV.UK Registers or integrating it with your service.
+        </p>
+        <p>GOV.UK Registers is built and supported by a full time team at the Government Digital Service.</p>
+      </div>
+      <div class='column-one-third'>
+        <aside class='related-items'>
+          <h2 class='related-items__title'>Registers you can use</h2>
+          <ul class='related-items__list'>
+            <li><a href="country?phase=beta">country</a></li>
+            <li><a href="government-domain?phase=beta">government-domain</a></li>
+            <li><a href="government-organisation?phase=beta">government-organisation</a></li>
+            <li><a href="government-service?phase=beta">government-service</a></li>
+            <li><a href="internal-drainage-board?phase=beta">internal-drainage-board</a></li>
+            <li><a href="local-authority-eng?phase=beta">local-authority-eng</a></li>
+            <li><a href="local-authority-sct?phase=beta">local-authority-sct</a></li>
+            <li><a href="local-authority-type?phase=beta">local-authority-type</a></li>
+            <li><a href="principal-local-authority?phase=beta">principal-local-authority</a></li>
+            <li><a href="prison-estate?phase=beta">prison-estate</a></li>
+            <li><a href="registration-district?phase=beta">registration-district</a></li>
+            <li><a href="statistical-geography?phase=beta">statistical-geography</a></li>
+            <li><a href="statistical-geography-unitary-authority-wls?phase=beta">statistical-geography-unitary-authority-wls</a></li>
+            <li><a href="territory?phase=beta">territory</a></li>
+          </ul>
+          <h2 class='related-items__title'>Upcoming registers</h2>
+          <ul class='related-items__list'>
+            <li>
+              <a href="/registers">View all registers in progress</a>
+            </li>
+          </ul>
+          <h2 class='related-items__title'>Suggest a register</h2>
+          <ul class='related-items__list'>
+            <li>
+              <a href="https://registers.cloudapps.digital/new-register">Find out more</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
     </div>
   </div>
 </main>
