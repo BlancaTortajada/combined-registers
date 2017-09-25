@@ -10,7 +10,11 @@
 
 {% set homepage_url = 'https://registers.cloudapps.digital/' %}
 {% set logo_link_title = 'Go to GOV.UK Registers home page' %}
-{% set global_header_text = 'GOV.UK Registers' %}
+{% set global_header_text = "GOV.UK <span id='product-name'>Registers</span>"|safe %}
+
+{% block inside_header %}
+  <strong class="phase-tag">ALPHA</strong>
+{% endblock %}
 
 {% block proposition_header %}
 
