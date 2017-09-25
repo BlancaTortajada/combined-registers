@@ -1,0 +1,333 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Open Registers
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="https://www.gov.uk/service-toolkit#components">Components</a></li>
+        <li><a href="index.html">GOV.UK Registers</a></li>
+        <li><a href="/registers.html">Registers collection</a></li>
+        <li>Principal local authority</li>
+      </ol>
+    </div>
+    <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge title">
+        Principal local authority
+      </h1>
+      <dl class="metadata">
+        <dt>Updated:</dt>
+        <dd>01/08/2017</dd>
+        <dt>Managed by:</dt>
+        <dd><a href="https://www.gov.uk/government/organisations/welsh-government">Welsh Government</a></dd>
+      </dl>
+      <p>List of all principal local authorities in Wales.</p>
+      <details>
+        <summary><span class="summary">What are Registers?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>Registers are reliable lists of information managed by one custodian from the government organisation responsible for maintaining the Register’s data.</p>
+          <p>You can easily combine data from some Registers with data from another Register to build your service. For example, this Register can be combined with other registers to create the <a href="local-autorities-uk.html">Local authorities in the UK</a> register.</p>
+          <p>
+          <a href="https://registers.cloudapps.digital/using-registers">Using Registers</a>
+          <br>
+          <a href="https://registers.cloudapps.digital/registers">Registers collection</a>
+          </p>
+        </div>
+      </details>
+      <details>
+        <summary><span class="summary">How do I use this Register in my service?</span></summary>
+        <div class="panel panel-border-narrow">
+          <p>There are 2 ways to use Registers. You can either:</p>
+          <ul class="list-bullet">
+          <li>use an <a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">application programming interface</a> (API) to automatically pull data from a register into your service</li>
+          <li>download the data for this Register and keep your own copy up-to-date</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+    <div class="column-one-third">
+      <h2 class="heading-small">Find out more</h2>
+      <ul>
+        <li><a href="#">Register updates</a></li>
+        <li><a href="https://registers-docs.cloudapps.digital/#api-documentation-for-registers">API documentation</a></li>
+        <li><a href="https://www.gov.uk/guidance/creating-a-register">Create a register</a></li>
+        <li><a href="https://registers.cloudapps.digital/support">Contact the team</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="search-wrapper">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="form-group">
+          <label class="form-label" for="select-box">Filter by</label>
+          <select class="form-control" id="select-box" name="select-box">
+            <option>Existing records</option>
+            <option>Closed records</option>
+            <option>Existing and closed records</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <label>Search for a record</label>
+          <input class="form-control" id="search" name="search">
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="column-full">
+        <h2 class="heading-large">23 records</h2>
+        <details>
+          <summary><span class="summary">Get a copy of this data</span></summary>
+          <div class="panel panel-border-narrow">
+            <div class="download-options">
+              <p>Download this data as: <a href="#">TSV</a>, <a href="#">CSV</a> or as a <a href="#">Spreadsheet</a>.</p>
+              <p>Preview a sample as <a href="#">JSON</a>, <a href="#">YAML</a> or <a href="#">TTL</a>.</p>
+            </div>
+          </div>
+        </details>
+        <details>
+          <summary><span class="summary">What are the column headings?</span></summary>
+          <div class="panel panel-border-narrow">
+            <dl>
+              <dt>principal-local-authority</dt>
+              <dd>A principal local authority in Wales.</dd>
+              <dt>name</dt>
+              <dd>The commonly-used name of a record.</dd>
+              <dt>name-cy</dt>
+              <dd>Welsh name for an entry.</dd>
+              <dt>official-name</dt>
+              <dd>The official or technical name of a record.</dd>
+              <dt>official-name-cy</dt>
+              <dd>The official or technical Welsh name of a record.</dd>
+              <dt>start-date</dt>
+              <dd>The date a record first became relevant to a register.</dd>
+              <dt>end-date</dt>
+              <dd>The date a record stopped being applicable.</dd>
+            </dl>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="grid-row table-view">
+    <div class="column-full" id="table-column">
+      <div class="table-wrapper scroll">
+        <table>
+          <thead><tr><th title="Field #1">principal-local-authority</th>
+          <th title="Field #2">name</th>
+          <th title="Field #3">name-cy</th>
+          <th title="Field #4">official-name</th>
+          <th title="Field #5">official-name-cy</th>
+          <th title="Field #6">start-date</th>
+          <th title="Field #7">end-date</th>
+          </tr></thead>
+          <tbody><tr>
+          <td>RCT</td>
+          <td>Rhondda Cynon Taff</td>
+          <td>Rhondda Cynon Taf</td>
+          <td>Rhondda Cynon Taf County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Rhondda Cynon Taf</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>WRX</td>
+          <td>Wrexham</td>
+          <td>Wrecsam</td>
+          <td>Wrexham County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Wrecsam</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>VGL</td>
+          <td>The Vale of Glamorgan</td>
+          <td>Bro Morgannwg</td>
+          <td>Vale of Glamorgan Council</td>
+          <td>Cyngor Bro Morgannwg</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>TOF</td>
+          <td>Torfaen</td>
+          <td>Tor-faen</td>
+          <td>Torfaen County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Torfaen</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>SWA</td>
+          <td>Swansea</td>
+          <td>Abertawe</td>
+          <td>City and County of Swansea Council</td>
+          <td>Dinas a Sir Abertawe</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>POW</td>
+          <td>Powys</td>
+          <td>Powys</td>
+          <td>Powys County Council</td>
+          <td>Cyngor Sir Powys</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>PEM</td>
+          <td>Pembrokeshire</td>
+          <td>Sir Benfro</td>
+          <td>Pembrokeshire County Council</td>
+          <td>Cyngor Sir Penfro</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NWP</td>
+          <td>Newport</td>
+          <td>Casnewydd</td>
+          <td>Newport City Council</td>
+          <td>Cyngor Dinas Casnewydd</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>NTL</td>
+          <td>Neath Port Talbot</td>
+          <td>Castell-nedd Port Talbot</td>
+          <td>Neath Port Talbot County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Castell-nedd Port Talbot</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MTY</td>
+          <td>Merthyr Tydfil</td>
+          <td>Merthyr Tudful</td>
+          <td>Merthyr Tydfil County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Merthyr Tudful</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>MON</td>
+          <td>Monmouthshire</td>
+          <td>Sir Fynwy</td>
+          <td>Monmouthshire County Council</td>
+          <td>Cyngor Sir Fynwy</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>GWN</td>
+          <td>Gwynedd</td>
+          <td>Gwynedd</td>
+          <td>Gwynedd Council</td>
+          <td>Cyngor Gwynedd</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>FLN</td>
+          <td>Flintshire</td>
+          <td>Sir y Fflint</td>
+          <td>Flintshire County Council</td>
+          <td>Cyngor Sir y Fflint</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>DEN</td>
+          <td>Denbighshire</td>
+          <td>Sir Ddinbych</td>
+          <td>Denbighshire County Council</td>
+          <td>Cyngor Sir Ddinbych</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CWY</td>
+          <td>Conwy</td>
+          <td>Conwy</td>
+          <td>Conwy County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Conwy</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CRF</td>
+          <td>Cardiff</td>
+          <td>Caerdydd</td>
+          <td>City of Cardiff Council</td>
+          <td>Cyngor Dinas Caerdydd</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CMN</td>
+          <td>Carmarthenshire</td>
+          <td>Sir Gaerfyrddin</td>
+          <td>Carmarthenshire County Council</td>
+          <td>Cyngor Sir Gâr</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CGN</td>
+          <td>Ceredigion</td>
+          <td>Ceredigion</td>
+          <td>Ceredigion County Council</td>
+          <td>Cyngor Sir Ceredigion</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>CAY</td>
+          <td>Caerphilly</td>
+          <td>Caerffili</td>
+          <td>Caerphilly County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Caerffili</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BGW</td>
+          <td>Blaenau Gwent</td>
+          <td>Blaenau Gwent</td>
+          <td>Blaenau Gwent County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Blaenau Gwent</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>BGE</td>
+          <td>Bridgend</td>
+          <td>Pen-y-bont ar Ogwr</td>
+          <td>Bridgend County Borough Council</td>
+          <td>Cyngor Bwrdeistref Sirol Pen-y-bont ar Ogwr</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          <tr>
+          <td>AGY</td>
+          <td>Isle of Anglesey</td>
+          <td>Sir Ynys Môn</td>
+          <td>Isle of Anglesey County Council</td>
+          <td>Cyngor Sir Ynys Môn</td>
+          <td>1996-04-01</td>
+          <td class="not-found">No data found</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
